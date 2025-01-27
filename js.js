@@ -3,7 +3,7 @@ const guess = document.querySelector(".userNumber");
 const imgAnimation = document.querySelector("img");
 
 const RandomNumber = Math.round(Math.random() * 100);
-console.log("Random tal:", RandomNumber);
+/* console.log("Random tal:", RandomNumber); */
 
 knap.addEventListener("click", checkNumber);
 
